@@ -7,6 +7,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "RG1" {
-  name     = "DevOps-RG"
+  name     = "DevOps-Test-RG"
   location = "West Europe"
 }
